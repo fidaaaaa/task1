@@ -18,7 +18,7 @@ del {
 	text-decoration: line-through;
 }
 body {
-	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-family: "Gordita-Eesti", Arial, Helvetica, sans-serif;
 	font-size: 17px;
 	color: #000;
 	overflow-x: hidden;
@@ -26,7 +26,7 @@ body {
 	font-weight: 500;
 }
 input,textarea,select{
-	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-family: "GT-Gordita", Arial, Helvetica, sans-serif;
 	font-weight: 500;
 }
 
@@ -84,19 +84,21 @@ br.clear {
     padding: 15px 20px;
 	display: flex;
     justify-content: space-between;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 600;
     margin-left: 25px;	
 }
 #home header nav.middle{
-
+	padding: 20px;
 }
 #home header nav.middle ul{
     display: flex;
     justify-content: space-between;
 }
 #home header nav.middle ul li{
-
+	margin-right: 82px;
+    font-size: 22px;
+    font-weight: 600;
 }
 #home header  ul.right{
     display: flex;
@@ -118,35 +120,65 @@ br.clear {
 
 }
 #home section #spotlight div.left{
-
+	margin-top: 60px;
+    margin-left: 80px;
+	width: 65%;
 }
-#home section #spotlight div.left h4{
-
+#home section #spotlight div.left h3{
+	
 }
-#home section #spotlight div.left h1{
-
+#home section #spotlight div.left h3 span{
+	font-weight: 600;
+    font-size: 30px;
+    color: #4895A5;
+}
+#home section #spotlight div.left h3 img{
+	
+}
+#home section #spotlight div.left h1 {
+	font-size: 104px;
+    width: 75%;
+}
+#home section #spotlight div.left h1 span{
+	color: #4895a5;
 }
 #home section #spotlight div.left p{
-
+	width: 52%;
+    margin-top: 45px;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
 #home section #spotlight div.left a{
-
+	background: #EA542F;
+    font-size: 23px;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 15px 35px;
+    color: #fff;
 }
 #home section #spotlight div.left ul{
-
+	margin-top: 60px;
+	display: flex;
+    margin-top: 60px;
 }
 #home section #spotlight div.left ul li{
-
+	font-size: 22px;
+    font-weight: 600;
+    width: 34%;
 }
 #home section #spotlight div.left ul li h4{
-
+	font-weight: 600;
+	margin-bottom: 10px;
 }
-#home section #spotlight div.left ul li p{
-
+#home section #spotlight div.left ul li p2{
+	font-size: 17px;
 }
 #home section #spotlight div.right{
-
+	width: 35%;
+    display: block;
+    margin-top: 100px;
 }
 #home section #spotlight div.right img{
-    
+    width: 100%;
+	display: block;
 }
