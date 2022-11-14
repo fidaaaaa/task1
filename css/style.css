@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: #000;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 500;
+	color: #000;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	/* max-width:1200px; */
+}
+.flex-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#home{
+    background: url(/bg_image.png) no-repeat;
+    height: 100vh;
+    width: 100%;
+
+}
+#home section.wrapper{
+
+}
+#home header{
+    padding: 15px 20px;
+	display: flex;
+    justify-content: space-between;
+
+}
+#home header div.left span{
+    padding: 15px 20px;
+	display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 25px;	
+}
+#home header nav.middle{
+
+}
+#home header nav.middle ul{
+    display: flex;
+    justify-content: space-between;
+}
+#home header nav.middle ul li{
+
+}
+#home header  ul.right{
+    display: flex;
+    justify-content: space-between;
+}
+#home header  ul.right li{
+   display: block;
+
+}
+#home header  ul.right li a{
+
+}
+#home header  ul.right li a img{
+
+}
+#home section #spotlight{
+    display: flex;
+    justify-content: space-between;
+
+}
+#home section #spotlight div.left{
+
+}
+#home section #spotlight div.left h4{
+
+}
+#home section #spotlight div.left h1{
+
+}
+#home section #spotlight div.left p{
+
+}
+#home section #spotlight div.left a{
+
+}
+#home section #spotlight div.left ul{
+
+}
+#home section #spotlight div.left ul li{
+
+}
+#home section #spotlight div.left ul li h4{
+
+}
+#home section #spotlight div.left ul li p{
+
+}
+#home section #spotlight div.right{
+
+}
+#home section #spotlight div.right img{
+    
+}
