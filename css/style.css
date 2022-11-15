@@ -57,19 +57,15 @@ br.clear {
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
-	/* max-width:1200px; */
 }
 .flex-wrapper {
 	display: flex;
 	justify-content: space-between;
 }
-
-
 #home{
     background: url(/bg_image.png) no-repeat;
     height: 100vh;
     width: 100%;
-
 }
 #home section.wrapper{
 
@@ -125,15 +121,21 @@ br.clear {
 	width: 65%;
 }
 #home section #spotlight div.left h3{
-	
+	display: flex;
 }
 #home section #spotlight div.left h3 span{
 	font-weight: 600;
     font-size: 30px;
     color: #4895A5;
 }
-#home section #spotlight div.left h3 img{
-	
+#home section #spotlight div.left h3 div{
+	width: 7%;
+    display: block;
+    margin-top: -17px;
+}
+#home section #spotlight div.left h3 div img{
+	width: 100%;
+	display: block;
 }
 #home section #spotlight div.left h1 {
 	font-size: 104px;
@@ -174,11 +176,55 @@ br.clear {
 	font-size: 17px;
 }
 #home section #spotlight div.right{
-	width: 35%;
+	width: 32%;
     display: block;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 #home section #spotlight div.right img{
     width: 100%;
 	display: block;
 }
+#About{
+	padding: 25% 10%;
+	display: flex;
+	justify-content: space-between;
+}
+#About div.left{
+	display: flex;
+}
+#About div.left div.dot{
+	width: 65%;
+    display: block;
+}
+#About div.left div.dot img{
+	width: 100%;
+	display: block;
+}
+#About div.left div.box{
+
+}
+#About div.left div.box div{
+
+}
+#About div.left div.box div img{
+	width: 100%;
+	display: block;
+}
+#About div.left div.box img{
+	width: 100%;
+	display: block;
+}
+#About div.right{
+
+}
+#About div.right h1{
+
+}
+#About div.right p{
+
+}
+#About div.right a.button{
+
+}
+
+   
