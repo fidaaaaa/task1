@@ -63,9 +63,9 @@ br.clear {
 	justify-content: space-between;
 }
 #home{
-    background: url(/bg_image.png) no-repeat;
-    height: 100vh;
-    width: 100%;
+    background: url(/bg_image.png) no-repeat ;
+	background-size: cover;
+	width: 100%;
 }
 #home section.wrapper{
 
@@ -184,47 +184,70 @@ br.clear {
     width: 100%;
 	display: block;
 }
-#About{
-	padding: 25% 10%;
+#About {
 	display: flex;
 	justify-content: space-between;
+	padding: 120px 135px;
+	align-items: center;
 }
 #About div.left{
 	display: flex;
-}
-#About div.left div.dot{
-	width: 65%;
-    display: block;
-}
-#About div.left div.dot img{
-	width: 100%;
-	display: block;
+	justify-content: space-between;
 }
 #About div.left div.box{
-
-}
-#About div.left div.box div{
-
-}
-#About div.left div.box div img{
-	width: 100%;
-	display: block;
+	
 }
 #About div.left div.box img{
-	width: 100%;
+	border-radius: 20px;
+}
+#About div.left div.box2{
+	margin-left: 50px;
+	
+} 
+#About div.left div.box2 {
+	
+}
+#About div.left div.box2 div.image1{
+	margin-bottom: 45px;
+	
+
+}
+#About div.left div.box2 div.image1 img{
 	display: block;
+	width: 100%;
+	border-radius: 20px;
+}
+#About div.left div.box2 div.image2{
+	
+
+}
+#About div.left div.box2 div.image2 img{
+	display: block;
+	width: 100%;
+	border-radius: 20px;
 }
 #About div.right{
+	width: 45%;
 
 }
 #About div.right h1{
+	font-size: 80px;
 
 }
 #About div.right p{
+	margin-top: 80px;
+	width: 80%;
+	font-size: 28px;
+	margin-bottom: 66px;
+	color: #747474;
 
 }
 #About div.right a.button{
-
+	background-color: #EA542F;
+	color: #fff;
+	border-radius: 10px;
+	padding: 17px 46px;
+	font-size: 22px;
 }
 
-   
+
