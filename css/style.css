@@ -249,5 +249,58 @@ br.clear {
 	padding: 17px 46px;
 	font-size: 22px;
 }
+#middle{
+	padding: 120px 135px;
+	display: flex;
+	justify-content: space-between;
+
+}
+#middle div.left{
+	width: 48%;
+	padding: 25px;
+}
+#middle div.left  h1{
+	font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+#middle div.left p{
+	color: #747474;
+    font-size: 26px;
+    margin-bottom: 47%
+}
+#middle div.left img{
+	width: 100%;
+	display: block;
+	border-radius: 20px;
+}
+#middle div.right{
+	width: 48%;
+	padding: 25px;
+}
+#middle div.right img{
+	width: 100%;
+	display: block;
+	border-radius: 20px;
+	margin-bottom: 150px;
+}
+#middle div.right h1{
+	font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+#middle div.right p{
+	color: #747474;
+    font-size: 26px;
+    margin-bottom: 15%
+
+}
+#middle div.right a.button{
+	background-color: #EA542F;
+	color: #fff;
+	border-radius: 10px;
+	padding: 17px 46px;
+	font-size: 22px;
+}
 
 
