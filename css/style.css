@@ -366,3 +366,55 @@ br.clear {
 	padding: 17px 46px;
 	font-size: 22px;
 }
+#partners{
+	display: flex;
+    padding: 115px 180px;
+}
+#partners section.left{
+	width: 60%;
+}
+#partners section.left h1{
+	font-size: 60px;
+    font-weight: 600;
+    max-width: 42%;
+	margin-bottom: 20px;
+}
+#partners section.left p{
+	font-size: 23px;
+    max-width: 54%;
+	margin-bottom: 65px;
+}
+#partners section.left a.button{
+	background-color: #EA542F;
+	color: #fff;
+	border-radius: 10px;
+	padding: 25px 46px;
+	font-size: 25px;
+}
+#partners section.right{
+	width: 40%;
+}
+#partners section.right ul{
+	display: flex;
+    flex-wrap: wrap;
+	margin-bottom: 40px;
+}
+#partners section.right ul.two{
+
+}
+#partners section.right ul.three{
+
+}
+#partners section.right ul.four{
+
+}
+#partners section.right ul li{
+	margin: 0 auto;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+#partners section.right ul  img{
+	display: block;
+	width: 100%;
+}
+
+
