@@ -416,5 +416,132 @@ br.clear {
 	display: block;
 	width: 100%;
 }
+#testimonials{
+	padding: 70px 135px;
+}
+#testimonials h1{
+	font-size: 72px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#testimonials p{
+	font-size: 25px;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 35px;
+	color: #747474;
+	margin-bottom: 100px;
+}
+#testimonials div.box{
+	display: flex;
+	border: 1px solid #747474;
+	padding: 20px 20px;
+	border-radius: 20px
 
+}
+#testimonials div.box div.left{
+	width: 30%;
+    display: block;
+}
+#testimonials div.box div.left img{
+	width: 100%;
+	display: block;
+	border-radius: 20px;
+}
+#testimonials div.box div.right{
+	margin-left: 20px;
+    width: 70%;
+	position: relative;
+}
+#testimonials div.box div.right .quotes2{
+	position: absolute;
+    top: 151px;
+    right: 328px;
+}
+#testimonials div.box div.right .quotes2 img{
+	display: block;
+	width: 100%;
+}
+#testimonials div.box div.right p {
+	width: 100%;
+	text-align: initial;
+}
+#testimonials div.box div.right div.name{
+	position: relative;
+    top: -43px;
+}
+#testimonials div.box div.right div.name div.profile{
+	width: 80px;
+}
+#testimonials div.box div.right div.name div.profile img{
+	display: block;
+	width: 100%;
+}
+#testimonials div.box div.right div.name h6{
 
+}
+#testimonials div.box div.right div.name span{
+
+}
+
+#subscribe{
+	padding: 100px 135px;
+    text-align: center;
+	background: #fbf9f9;
+
+}
+#subscribe a{
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+}
+#subscribe a img{
+	display: block;
+	width: 100%;
+	
+}
+#subscribe h1{
+	font-size: 85px;
+    font-weight: 600;
+}
+#subscribe p{
+	max-width: 52%;
+    margin: 0 auto;
+    font-size: 25px;
+    color: #747474;
+    margin-bottom: 52px;
+}
+
+#subscribe div.box{
+} 
+#subscribe div.box span{
+	border: 1px solid;
+    padding: 30px 100px;
+    border-radius: 6px;
+    padding-bottom: 25px;
+    color: darkgray;
+    font-size: 23px;
+} 
+#subscribe div.box a.button{
+	color: #fff;
+    background:#EA542F;
+    padding: 16px 15px;
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: -26px;
+	padding-bottom: 11px;	
+} 
+#contact{
+
+}
+#contact h1{
+
+}
+#contact p{
+
+}
+#contact form
