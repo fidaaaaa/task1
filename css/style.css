@@ -1350,9 +1350,214 @@ footer section.bottom span{
 		align-items: center;
 		margin-left: 28%;
 	}
-	
 }
 @media all and (max-width:768px){
-
+	#home header nav.middle {
+		padding: 20px;
+		width: 30%;
+		margin-right: 175px;
+		display: none;
+	}
+	#home section #spotlight div.left h1 {
+		font-size: 35px;
+		width: 68%;
+	}
+	#home section #spotlight div.left p {
+		width: 100%;
+		margin-top: 29px;
+		font-size: 19px;
+		margin-bottom: 50px;
+	}
+	#home section #spotlight div.left ul li {
+		font-size: 22px;
+		font-weight: 600;
+		width: 40%;
+	}
+	#home section #spotlight div.left ul li {
+		font-size: 23px;
+		font-weight: 600;
+		width: 42%;
+	}
+	#home section #spotlight div.right {
+		width: 32%;
+		display: block;
+		margin-top: 400px;
+	}
+	#About div.right a.button {
+		background-color: #EA542F;
+		color: #fff;
+		border-radius: 10px;
+		padding: 16px 6px;
+		font-size: 8px;
+	}
+	#About div.right p {
+		margin-top: 5px;
+		width: 267px;
+		font-size: 17px;
+		margin-bottom: 20px;
+		color: #747474;
+	}
+	#middle {
+		padding: 15px 135px;
+		display: flex;
+		justify-content: space-between;
+	}
+	#middle div.right a.button {
+		background-color: #EA542F;
+		color: #fff;
+		border-radius: 10px;
+		padding: 13px 3px;
+		font-size: 11px;
+	}
+	#service {
+		padding: 10px 135px;
+		background-color: #f8f8f8;
+		text-align: center;
+	}
+	#service div.pawprint a {
+		width: 30%;
+		display: block;
+		margin: 0 auto;
+	}
+	#service div.pawprint h1 {
+		font-size: 38px;
+		font-weight: 500;
+		margin-bottom: 19px;
+	}
+	#service div.pawprint p {
+		font-size: 14px;
+		margin: 0 auto;
+		max-width: 74%;
+		color: #747474;
+		width: px;
+		width: 140px;
+	}
+	#service ul li a {
+		width: 100%;
+		display: block;
+		margin-left: 3px;
+		margin-bottom: 20px;
+	}
+	#service {
+		padding: 65px 135px;
+		background-color: #f8f8f8;
+		text-align: center;
+	}
+	#partners section.left h1 {
+		font-size: 38px;
+		font-weight: 600;
+		margin-bottom: 12px;
+	}
+	#partners section.left p {
+		font-size: 14px;
+		max-width: 100%;
+		margin-bottom: 31px;
+	}
+	#testimonials h1 {
+		font-size: 38px;
+		font-weight: 600;
+		margin-bottom: 11px;
+		text-align: center;
+	}
+	#testimonials p {
+		line-height: 22px;
+		font-size: 14px;
+		width: 70%;
+		margin: 0 auto;
+		text-align: center;
+		color: #747474;
+		margin-bottom: 57px;
+	}
+	#testimonials div.box div.right .quotes2 {
+		position: absolute;
+		top: 361px;
+		right: 100px;
+		width: 7%;
+	}
+	#subscribe form ul li input {
+		padding: 13px 5px;
+		border-radius: 6px;
+		color: darkgray;
+		font-size: 13px;
+		background: #fff;
+		width: 375px;
+	}
+	#subscribe form a.button {
+		color: #fff;
+		background: #EA542F;
+		padding: 12px 15px;
+		border-radius: 0px 9px 9px 0px;
+		font-size: 13px;
+		display: inline-block;
+		margin-left: -75px;
+		padding-bottom: -2px;
+		width: 123px;
+		margin-top: 1px;
+		height: 41px;
+	}
+	#subscribe form {
+		display: flex;
+		margin-left: 12px;
+	}
+	#contact form {
+		display: flex;
+		margin-left: -25%;
+	}
+	footer section.top div.left {
+		width: 30%;
+		display: none;
+	}
+}
+@media all and (max-width:480px){
+	#home {
+		background: url(/bg_image.png) no-repeat;
+		background-size: cover;
+		width: 100%;
+		margin-left: 50px;
+	}
+	#home section #spotlight {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	#home section #spotlight div.left h3 div {
+		width: 30%;
+		display: block;
+		margin-top: -17px;
+	}
+	#home section #spotlight div.left h1 {
+		font-size: 29px;
+		width: 100%;
+		margin-bottom: -17px;
+	}
+	#home section #spotlight div.left p {
+		width: 100%;
+		margin-top: 29px;
+		font-size: 15px;
+		margin-bottom: 40px;
+	}
+	#home section #spotlight div.left a {
+		background: #EA542F;
+		font-size: 14px;
+		font-weight: 500;
+		border-radius: 6px;
+		padding: 12px 12px;
+		color: #fff;
+	}
+	#home section #spotlight div.right {
+		width: 90%;
+		display: block;
+		margin-top: 80px;
+	}
 	
+
+	#About {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 135px;
+    align-items: center;
+    flex-wrap: wrap;
+	}
+
+
 }
