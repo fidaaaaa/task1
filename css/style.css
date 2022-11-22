@@ -479,15 +479,18 @@ br.clear {
 #testimonials div.box div.right div.identity div.profile img{
 	display: block;
 	width: 100%;
+	border-radius: 7px;
 }
 #testimonials div.box div.right div.identity .name {
-
+	margin-top: 30px;
 }
 #testimonials div.box div.right div.identity .name h6{
-
+	font-size: 25px;
+	margin-bottom: 3px;
 }
 #testimonials div.box div.right div.identity .name span{
-
+	color: blue;
+	margin-top: 10px;
 }
 
 #subscribe{
@@ -518,26 +521,39 @@ br.clear {
     margin-bottom: 52px;
 }
 
-#subscribe div.box{
+#subscribe form{
+	display: flex;
+    margin-left: 560px
 } 
-#subscribe div.box span{
-	border: 1px solid;
-    padding: 30px 100px;
+#subscribe form ul{
+
+}
+#subscribe form ul li {
+
+}
+#subscribe form ul li input{
+	padding: 33px 6px;
     border-radius: 6px;
     padding-bottom: 25px;
     color: darkgray;
     font-size: 23px;
+    background: #fff;
+    width: 700px;
+
 } 
-#subscribe div.box a.button{
+#subscribe form a.button{
 	color: #fff;
-    background:#EA542F;
-    padding: 16px 15px;
-    border-radius: 8px;
-    font-size: 11px;
+    background: #EA542F;
+    padding: 31px 15px;
+    border-radius: 0px 9px 9px 0px;
+    font-size: 19px;
     font-weight: 600;
     display: inline-block;
-    margin-left: -26px;
-	padding-bottom: 11px;	
+    margin-left: -160px;
+    padding-bottom: -2px;
+    width: 160px;
+    margin-top: 1px;
+    height: 82px;
 } 
 #contact{
 	padding: 100px 135px;
@@ -553,23 +569,58 @@ br.clear {
     color: #747474;
     width: 50%;
     margin: 0 auto;
+	margin-bottom: 100px;
 }
 #contact form{
 	display: flex;
+	margin-left: 12%;
 }
 #contact form ul.left{
-
+	width: 40%;
 }
 #contact form ul.left li{
+	border: 1px solid #747474;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    height: 74px;
+    border-radius: 10px;
+}
+#contact form ul.left li input{
+	font-size: 20px;
+    text-align: left;
+    margin-right: 245px;
 
 }
-#contact form ul.right{
+#contact form div.right{
 
 }
-#contact form ul.right li{
+#contact form div.right ul{
 
 }
-#contact form ul.right li a.button{
+#contact form div.right ul li{
+	border: 1px solid #747474;
+    margin-bottom: 25px;
+    width: 565px;
+    border-radius: 15px;
+    margin-right: -155px;
+	height: 180px;
+}
+#contact form div.right ul li input{
+	font-size: 20px;
+    text-align: left;
+    margin-right: 245px;
+}
+#contact form div.right a.button{
+	color: #fff;
+    background: #EA542F;
+    padding: 23px 150px;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: -3px;
+    padding-bottom: 16px;
+    width: 572px;
 
 }
 #last{
@@ -584,43 +635,67 @@ br.clear {
 	width: 100%;
 }
 footer{
-    padding: 15px 20px;
-	display: flex;
-    justify-content: space-between;
+    padding: 80px 40px;
 	background: #f8f8f8;
 
 }
-footer div.left span{
-    padding: 15px 20px;
+footer section.top{
 	display: flex;
+	justify-content: space-between;
+}
+footer section.top div.left span{
+    padding: 15px 20px;
     justify-content: space-between;
     font-size: 40px;
     font-weight: 600;
     margin-left: 25px;	
 }
-footer nav.middle{
+footer section.top nav.middle{
 	padding: 20px;
 }
-footer nav.middle ul{
+footer section.top nav.middle ul{
     display: flex;
     justify-content: space-between;
 }
-footer nav.middle ul li{
+footer section.top nav.middle ul li{
 	margin-right: 82px;
     font-size: 22px;
     font-weight: 600;
 }
-footer  ul.right{
+footer section.top ul.right{
     display: flex;
     justify-content: space-between;
 }
-footer  ul.right li{
+footer section.top ul.right li{
    display: block;
    margin-left: 8px;
 }
-footer  ul.right li a{
+footer section.top ul.right li a{
 
 }
-footer  ul.right li a img{
+footer section.top ul.right li a img{
 
 }
+footer hr.line{
+	border-bottom: 0.5px solid #747474;
+	margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 20px;
+}
+footer section.bottom{
+	display: flex;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 43%;
+}
+footer section.bottom div{
+ 
+}
+footer section.bottom div img{
+	width: 100%;
+	display: block;
+}
+footer section.bottom span{
+	color: #747474;
+}
+	
