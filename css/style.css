@@ -304,7 +304,7 @@ br.clear {
 }
 #service{
 	padding: 70px 135px;
-	background-color: #fbf9f9;
+	background-color: #f8f8f8;
 	text-align: center;
 }
 #service div.pawprint{
@@ -468,28 +468,32 @@ br.clear {
 	width: 100%;
 	text-align: initial;
 }
-#testimonials div.box div.right div.name{
+#testimonials div.box div.right div.identity{
 	position: relative;
-    top: -43px;
+    top: -15px;
+    display: flex;
 }
-#testimonials div.box div.right div.name div.profile{
+#testimonials div.box div.right div.identity div.profile{
 	width: 80px;
 }
-#testimonials div.box div.right div.name div.profile img{
+#testimonials div.box div.right div.identity div.profile img{
 	display: block;
 	width: 100%;
 }
-#testimonials div.box div.right div.name h6{
+#testimonials div.box div.right div.identity .name {
 
 }
-#testimonials div.box div.right div.name span{
+#testimonials div.box div.right div.identity .name h6{
+
+}
+#testimonials div.box div.right div.identity .name span{
 
 }
 
 #subscribe{
 	padding: 100px 135px;
     text-align: center;
-	background: #fbf9f9;
+	background: #f8f8f8;
 
 }
 #subscribe a{
@@ -536,12 +540,87 @@ br.clear {
 	padding-bottom: 11px;	
 } 
 #contact{
-
+	padding: 100px 135px;
+	text-align: center;
 }
 #contact h1{
-
+	font-size: 72px;
+    font-weight: 600;
+    margin-bottom: 40px;
 }
 #contact p{
+	font-size: 25px;
+    color: #747474;
+    width: 50%;
+    margin: 0 auto;
+}
+#contact form{
+	display: flex;
+}
+#contact form ul.left{
 
 }
-#contact form
+#contact form ul.left li{
+
+}
+#contact form ul.right{
+
+}
+#contact form ul.right li{
+
+}
+#contact form ul.right li a.button{
+
+}
+#last{
+	
+}
+#last div.picture{
+	width: 30%;
+    margin: 0 auto;
+}
+#last div.picture img{
+	display: block;
+	width: 100%;
+}
+footer{
+    padding: 15px 20px;
+	display: flex;
+    justify-content: space-between;
+	background: #f8f8f8;
+
+}
+footer div.left span{
+    padding: 15px 20px;
+	display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 25px;	
+}
+footer nav.middle{
+	padding: 20px;
+}
+footer nav.middle ul{
+    display: flex;
+    justify-content: space-between;
+}
+footer nav.middle ul li{
+	margin-right: 82px;
+    font-size: 22px;
+    font-weight: 600;
+}
+footer  ul.right{
+    display: flex;
+    justify-content: space-between;
+}
+footer  ul.right li{
+   display: block;
+   margin-left: 8px;
+}
+footer  ul.right li a{
+
+}
+footer  ul.right li a img{
+
+}
